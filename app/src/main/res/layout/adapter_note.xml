@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.jiayuan.huawei.hwframeworklib.ui.customview.squares.SquareLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/text_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="6dp"
+        android:ellipsize="end"
+        android:lines="1"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+    <com.jiayuan.huawei.hwframeworklib.ui.customview.mutiTexts.SolidTextView
+        android:id="@+id/text_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="6dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="6dp"
+        android:ellipsize="end"
+        android:textSize="14sp" />
+</com.jiayuan.huawei.hwframeworklib.ui.customview.squares.SquareLinearLayout>

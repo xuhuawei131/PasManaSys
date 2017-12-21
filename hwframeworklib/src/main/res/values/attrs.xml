@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <declare-styleable name="MaterialLockView">
+        <attr name="LOCK_COLOR" format="color" />
+        <attr name="WRONG_COLOR" format="color" />
+        <attr name="CORRECT_COLOR" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="RippleView">
+        <attr name="rv_alpha" format="integer" />
+        <attr name="rv_framerate" format="integer" />
+        <attr name="rv_rippleDuration" format="integer" />
+        <attr name="rv_zoomDuration" format="integer" />
+        <attr name="rv_color" format="color" />
+        <attr name="rv_centered" format="boolean" />
+        <attr name="rv_type" format="enum">
+            <enum name="simpleRipple" value="0" />
+            <enum name="doubleRipple" value="1" />
+            <enum name="rectangle" value="2" />
+        </attr>
+        <attr name="rv_ripplePadding" format="dimension" />
+        <attr name="rv_zoom" format="boolean" />
+        <attr name="rv_zoomScale" format="float" />
+
+    </declare-styleable>
+    <declare-styleable name="DropDownMenu">
+
+        <attr name="ddunderlineColor" format="color" />
+        <attr name="dddividerColor" format="color" />
+        <attr name="ddtextSelectedColor" format="color" />
+        <attr name="ddtextUnselectedColor" format="color" />
+        <attr name="ddmenuBackgroundColor" format="color" />
+        <attr name="ddmaskColor" format="color" />
+        <attr name="ddmenuTextSize" format="dimension" />
+        <attr name="ddmenuSelectedIcon" format="reference" />
+        <attr name="ddmenuUnselectedIcon" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="RefreshView">
+        <attr name="type" format="enum">
+            <enum name="sun" value="0" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="MaterialSpinner" tools:ignore="ResourceName">
+        <attr name="ms_arrow_tint" format="color" />
+        <attr name="ms_hide_arrow" format="boolean" />
+        <attr name="ms_background_color" format="color" />
+        <attr name="ms_text_color" format="color" />
+        <attr name="ms_dropdown_max_height" format="dimension" />
+        <attr name="ms_dropdown_height" format="dimension">
+            <enum name="fill_parent" value="-1" />
+            <enum name="match_parent" value="-1" />
+            <enum name="wrap_content" value="-2" />
+        </attr>
+    </declare-styleable>
+
+
+    <declare-styleable name="Stars">
+        <attr name="startColor" format="color" />
+        <attr name="startRadius" format="float" />
+    </declare-styleable>
+
+
+    <!-- LockPatternView class attributes -->
+    <declare-styleable name="LockPatternView">
+        <attr name="aspect">
+            <enum name="square" value="0" />
+            <enum name="lockWidth" value="1" />
+            <enum name="lockHeight" value="2" />
+        </attr>
+        <attr name="line" format="color" />
+        <attr name="btnNormal" format="reference" />
+        <attr name="btnTouched" format="reference" />
+        <attr name="circleNormal" format="reference" />
+        <attr name="circleGreen" format="reference" />
+        <attr name="circleRed" format="reference" />
+        <attr name="arrowGreenUp" format="reference" />
+        <attr name="arrowRedUp" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="solidTextView">
+        <attr name="textMaxHeight" format="dimension" />
+    </declare-styleable>
+
+</resources>
